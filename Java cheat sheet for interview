@@ -139,7 +139,7 @@ Collections.sort(list, new Comparator<Integer>() {
    }
 });
 list.forEach(num -> system.out.println(num));   // traverse the list and print out by using lamda function
-
+list.sort((a, b) -> a - b); // Java 8 inbuilt sort with lamda comparator
 /********************** Stack, Queue, PriorityQueue, Deque ***********************/
 Stack<Integer> stack = new Stack<Integer>();
 stack.push(10);
